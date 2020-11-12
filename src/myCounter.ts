@@ -29,15 +29,19 @@ const counter = new MyCounter(0);
 
 // predict: what will be console logged?
 console.log(counter.value);
+// => 0
 
 counter.increase()
 // predict: what will be console logged?
 console.log(counter.value);
+// => 1
 
 counter.decrease()
 // predict: what will be console logged?
 console.log(counter.value);
+// => 0
 
 counter.increase(10)
 // predict: what will be console logged?
 console.log(counter.value);
+// => 10
